@@ -1,0 +1,1146 @@
+2024/06/30 17:35:54 [notice] 8440#12268: using the "select" event method
+2024/06/30 17:35:54 [notice] 8440#12268: nginx/1.14.1
+2024/06/30 17:35:54 [info] 8440#12268: OS: 260200 build:9200, "", suite:300, type:1
+2024/06/30 17:35:54 [notice] 8440#12268: start worker processes
+2024/06/30 17:35:54 [notice] 8440#12268: start worker process 12016
+2024/06/30 17:35:55 [notice] 12016#16372: nginx/1.14.1
+2024/06/30 17:35:55 [info] 12016#16372: OS: 260200 build:9200, "", suite:300, type:1
+2024/06/30 17:35:55 [notice] 12016#16372: create thread 6108
+2024/06/30 17:35:55 [notice] 12016#16372: create thread 14988
+2024/06/30 17:35:55 [notice] 12016#16372: create thread 18972
+2024/06/30 17:37:37 [info] 12016#6108: *1 client connected '192.168.1.127'
+2024/06/30 17:37:37 [info] 12016#6108: *1 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://192.168.1.127:1935/live' tc_url='rtmp://192.168.1.127:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:37:37 [info] 12016#6108: *1 createStream, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:37:37 [info] 12016#6108: *1 publish: name='test' args='' type=live silent=0, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:38:36 [info] 12016#6108: *2 client connected '192.168.1.127'
+2024/06/30 17:38:36 [info] 12016#6108: *3 client connected '192.168.1.127'
+2024/06/30 17:38:57 [info] 12016#6108: *4 client connected '192.168.1.127'
+2024/06/30 17:38:57 [info] 12016#6108: *4 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.127:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:38:57 [info] 12016#6108: *4 createStream, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:38:57 [info] 12016#6108: *4 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:39:36 [info] 12016#6108: *2 handshake: recv: client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond), client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:39:36 [info] 12016#6108: *2 disconnect, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:39:36 [info] 12016#6108: *2 deleteStream, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:39:36 [info] 12016#6108: *3 handshake: recv: client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond), client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:39:36 [info] 12016#6108: *3 disconnect, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:39:36 [info] 12016#6108: *3 deleteStream, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:39:37 [info] 12016#6108: *5 client connected '192.168.1.127'
+2024/06/30 17:39:37 [info] 12016#6108: *6 client connected '192.168.1.127'
+2024/06/30 17:40:01 [info] 12016#6108: *6 disconnect, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:40:01 [info] 12016#6108: *6 deleteStream, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:40:01 [error] 12016#6108: *7 CreateFile() "C:\rtmp-server/html/live" failed (2: The system cannot find the file specified), client: 192.168.1.127, server: , request: "GET /live HTTP/1.1", host: "192.168.1.127:8080"
+2024/06/30 17:40:03 [error] 12016#6108: *7 CreateFile() "C:\rtmp-server/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.1.127, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.127:8080", referrer: "http://192.168.1.127:8080/live"
+2024/06/30 17:40:37 [info] 12016#6108: *5 handshake: recv: client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond), client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:40:37 [info] 12016#6108: *5 disconnect, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:40:37 [info] 12016#6108: *5 deleteStream, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:40:41 [info] 12016#6108: *4 disconnect, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:40:41 [info] 12016#6108: *4 deleteStream, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:40:41 [info] 12016#6108: *9 client connected '192.168.1.127'
+2024/06/30 17:40:41 [info] 12016#6108: *9 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.127:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:40:41 [info] 12016#6108: *9 createStream, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:40:41 [info] 12016#6108: *9 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:41:01 [error] 12016#6108: *7 directory index of "C:\rtmp-server/temp/hls/" is forbidden, client: 192.168.1.127, server: , request: "GET /hls/ HTTP/1.1", host: "192.168.1.127:8080"
+2024/06/30 17:41:01 [info] 12016#6108: *8 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 192.168.1.127, server: 0.0.0.0:8080
+2024/06/30 17:41:05 [error] 12016#6108: *7 directory index of "C:\rtmp-server/temp/hls/" is forbidden, client: 192.168.1.127, server: , request: "GET /hls/ HTTP/1.1", host: "192.168.1.127:8080"
+2024/06/30 17:41:17 [error] 12016#6108: *7 CreateFile() "C:\rtmp-server/temp/hls/test.m3u8" failed (2: The system cannot find the file specified), client: 192.168.1.127, server: , request: "GET /hls/test.m3u8 HTTP/1.1", host: "192.168.1.127:8080"
+2024/06/30 17:41:45 [info] 12016#6108: *1 deleteStream, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:41:45 [info] 12016#6108: *1 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:41:45 [info] 12016#6108: *1 disconnect, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:41:45 [info] 12016#6108: *1 deleteStream, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:42:05 [info] 12016#6108: *10 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 192.168.1.127, server: 0.0.0.0:8080
+2024/06/30 17:42:30 [info] 12016#6108: *9 disconnect, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:42:30 [info] 12016#6108: *9 deleteStream, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:42:30 [info] 12016#6108: *11 client connected '192.168.1.127'
+2024/06/30 17:42:30 [info] 12016#6108: *11 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.127:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:42:30 [info] 12016#6108: *11 createStream, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:42:30 [info] 12016#6108: *11 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:43:13 [info] 12016#6108: *12 client connected '192.168.1.127'
+2024/06/30 17:43:13 [info] 12016#6108: *12 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://192.168.1.127:1935/live' tc_url='rtmp://192.168.1.127:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:43:13 [info] 12016#6108: *12 createStream, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:43:13 [info] 12016#6108: *12 publish: name='test' args='' type=live silent=0, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:43:24 [info] 12016#6108: *11 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:43:24 [info] 12016#6108: *11 disconnect, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:43:24 [info] 12016#6108: *11 deleteStream, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:43:25 [info] 12016#6108: *12 deleteStream, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:43:25 [info] 12016#6108: *12 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:43:25 [info] 12016#6108: *12 disconnect, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:43:25 [info] 12016#6108: *12 deleteStream, client: 192.168.1.127, server: 0.0.0.0:1935
+2024/06/30 17:45:48 [info] 12016#6108: *13 client connected '192.168.1.106'
+2024/06/30 17:45:49 [info] 12016#6108: *13 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.110:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:45:49 [info] 12016#6108: *13 createStream, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:45:51 [info] 12016#6108: *13 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:47:11 [info] 12016#6108: *13 disconnect, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:47:11 [info] 12016#6108: *13 deleteStream, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:47:11 [info] 12016#6108: *14 client connected '192.168.1.106'
+2024/06/30 17:47:12 [info] 12016#6108: *14 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.110:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:47:12 [info] 12016#6108: *14 createStream, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:47:13 [info] 12016#6108: *14 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:47:35 [info] 12016#6108: *15 client connected '192.168.1.110'
+2024/06/30 17:47:35 [info] 12016#6108: *15 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://192.168.1.110:1935/live' tc_url='rtmp://192.168.1.110:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.110, server: 0.0.0.0:1935
+2024/06/30 17:47:35 [info] 12016#6108: *15 createStream, client: 192.168.1.110, server: 0.0.0.0:1935
+2024/06/30 17:47:35 [info] 12016#6108: *15 publish: name='test' args='' type=live silent=0, client: 192.168.1.110, server: 0.0.0.0:1935
+2024/06/30 17:48:54 [info] 12016#6108: *16 client connected '192.168.1.110'
+2024/06/30 17:48:54 [info] 12016#6108: *16 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.110:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.110, server: 0.0.0.0:1935
+2024/06/30 17:48:54 [info] 12016#6108: *16 createStream, client: 192.168.1.110, server: 0.0.0.0:1935
+2024/06/30 17:48:54 [info] 12016#6108: *16 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.110, server: 0.0.0.0:1935
+2024/06/30 17:49:05 [info] 12016#6108: *14 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:49:05 [info] 12016#6108: *14 disconnect, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:49:05 [info] 12016#6108: *14 deleteStream, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:49:05 [info] 12016#6108: *17 client connected '192.168.1.106'
+2024/06/30 17:49:05 [info] 12016#6108: *17 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.110:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:49:05 [info] 12016#6108: *17 createStream, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:49:06 [info] 12016#6108: *17 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:49:43 [info] 12016#6108: *17 disconnect, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:49:43 [info] 12016#6108: *17 deleteStream, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:51:19 [info] 12016#6108: *18 client connected '192.168.1.106'
+2024/06/30 17:51:20 [info] 12016#6108: *18 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.110:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:51:20 [info] 12016#6108: *18 createStream, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:51:20 [info] 12016#6108: *18 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:51:29 [info] 12016#6108: *18 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:51:29 [info] 12016#6108: *18 disconnect, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:51:29 [info] 12016#6108: *18 deleteStream, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:51:40 [info] 12016#6108: *19 client connected '192.168.1.106'
+2024/06/30 17:51:41 [info] 12016#6108: *19 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.110:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:51:41 [info] 12016#6108: *19 createStream, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:51:41 [info] 12016#6108: *19 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:51:43 [info] 12016#6108: *19 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:51:43 [info] 12016#6108: *19 disconnect, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:51:43 [info] 12016#6108: *19 deleteStream, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:51:43 [info] 12016#6108: *20 client connected '192.168.1.106'
+2024/06/30 17:51:43 [info] 12016#6108: *20 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.110:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:51:44 [info] 12016#6108: *20 createStream, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:51:44 [info] 12016#6108: *20 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:52:53 [info] 12016#6108: *15 deleteStream, client: 192.168.1.110, server: 0.0.0.0:1935
+2024/06/30 17:52:53 [info] 12016#6108: *15 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 192.168.1.110, server: 0.0.0.0:1935
+2024/06/30 17:52:53 [info] 12016#6108: *15 disconnect, client: 192.168.1.110, server: 0.0.0.0:1935
+2024/06/30 17:52:53 [info] 12016#6108: *15 deleteStream, client: 192.168.1.110, server: 0.0.0.0:1935
+2024/06/30 17:52:59 [info] 12016#6108: *20 WSASend() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:52:59 [info] 12016#6108: *20 disconnect, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:52:59 [info] 12016#6108: *20 deleteStream, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:53:16 [info] 12016#6108: *16 disconnect, client: 192.168.1.110, server: 0.0.0.0:1935
+2024/06/30 17:53:16 [info] 12016#6108: *16 deleteStream, client: 192.168.1.110, server: 0.0.0.0:1935
+2024/06/30 17:53:19 [info] 12016#6108: *21 client connected '192.168.1.128'
+2024/06/30 17:53:19 [info] 12016#6108: *21 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://192.168.1.128:1935/live' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 17:53:19 [info] 12016#6108: *21 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 17:53:19 [info] 12016#6108: *21 publish: name='test' args='' type=live silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 17:54:07 [info] 12016#6108: *22 client connected '192.168.1.128'
+2024/06/30 17:54:07 [info] 12016#6108: *22 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 17:54:07 [info] 12016#6108: *22 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 17:54:07 [info] 12016#6108: *22 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 17:54:54 [info] 12016#6108: *23 client connected '192.168.1.106'
+2024/06/30 17:54:54 [info] 12016#6108: *23 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:54:54 [info] 12016#6108: *23 createStream, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:54:54 [info] 12016#6108: *23 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:54:59 [info] 12016#6108: *23 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:54:59 [info] 12016#6108: *23 disconnect, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:54:59 [info] 12016#6108: *23 deleteStream, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 17:55:55 [info] 12016#6108: *22 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 17:55:55 [info] 12016#6108: *22 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 17:55:55 [info] 12016#6108: *22 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:00:00 [info] 12016#6108: *21 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:00:00 [info] 12016#6108: *21 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:00:00 [info] 12016#6108: *21 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:01:06 [info] 12016#6108: *24 client connected '192.168.1.128'
+2024/06/30 18:01:06 [info] 12016#6108: *24 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://192.168.1.128:1935/live' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:01:06 [info] 12016#6108: *24 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:01:06 [info] 12016#6108: *24 publish: name='test' args='' type=live silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:02:07 [info] 12016#6108: *25 client connected '192.168.1.50'
+2024/06/30 18:02:07 [info] 12016#6108: *25 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.50, server: 0.0.0.0:1935
+2024/06/30 18:02:07 [info] 12016#6108: *25 createStream, client: 192.168.1.50, server: 0.0.0.0:1935
+2024/06/30 18:02:07 [info] 12016#6108: *25 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.50, server: 0.0.0.0:1935
+2024/06/30 18:04:11 [info] 12016#6108: *26 client connected '192.168.1.130'
+2024/06/30 18:04:11 [info] 12016#6108: *26 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:04:12 [info] 12016#6108: *26 createStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:04:12 [info] 12016#6108: *26 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:04:27 [info] 12016#6108: *26 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:04:27 [info] 12016#6108: *26 disconnect, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:04:27 [info] 12016#6108: *26 deleteStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:04:29 [info] 12016#6108: *27 client connected '192.168.1.130'
+2024/06/30 18:04:29 [info] 12016#6108: *27 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:04:29 [info] 12016#6108: *27 createStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:04:29 [info] 12016#6108: *27 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:04:33 [info] 12016#6108: *27 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:04:33 [info] 12016#6108: *27 disconnect, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:04:33 [info] 12016#6108: *27 deleteStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:04:33 [info] 12016#6108: *28 client connected '192.168.1.130'
+2024/06/30 18:04:33 [info] 12016#6108: *28 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:04:33 [info] 12016#6108: *28 createStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:04:33 [info] 12016#6108: *28 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:04:34 [info] 12016#6108: *28 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:04:34 [info] 12016#6108: *28 disconnect, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:04:34 [info] 12016#6108: *28 deleteStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:04:34 [info] 12016#6108: *29 client connected '192.168.1.130'
+2024/06/30 18:04:34 [info] 12016#6108: *29 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:04:34 [info] 12016#6108: *29 createStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:04:34 [info] 12016#6108: *29 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:04:37 [info] 12016#6108: *29 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:04:37 [info] 12016#6108: *29 disconnect, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:04:37 [info] 12016#6108: *29 deleteStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:04:37 [info] 12016#6108: *30 client connected '192.168.1.130'
+2024/06/30 18:04:37 [info] 12016#6108: *30 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:04:37 [info] 12016#6108: *30 createStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:04:37 [info] 12016#6108: *30 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:08:47 [info] 12016#6108: *31 client connected '192.168.1.125'
+2024/06/30 18:08:47 [info] 12016#6108: *31 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.125, server: 0.0.0.0:1935
+2024/06/30 18:08:47 [info] 12016#6108: *31 createStream, client: 192.168.1.125, server: 0.0.0.0:1935
+2024/06/30 18:08:47 [info] 12016#6108: *31 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.125, server: 0.0.0.0:1935
+2024/06/30 18:10:50 [info] 12016#6108: *31 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.125, server: 0.0.0.0:1935
+2024/06/30 18:10:50 [info] 12016#6108: *31 disconnect, client: 192.168.1.125, server: 0.0.0.0:1935
+2024/06/30 18:10:50 [info] 12016#6108: *31 deleteStream, client: 192.168.1.125, server: 0.0.0.0:1935
+2024/06/30 18:18:22 [info] 12016#6108: *32 client connected '192.168.1.128'
+2024/06/30 18:18:22 [info] 12016#6108: *32 connect: app='live/test' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://192.168.1.128:1935/live/test' tc_url='rtmp://192.168.1.128:1935/live/test' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:18:22 [info] 12016#6108: *32 connect: application not found: 'live/test', client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:18:22 [info] 12016#6108: *32 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:18:22 [info] 12016#6108: *32 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:18:36 [info] 12016#6108: *33 client connected '192.168.1.128'
+2024/06/30 18:18:36 [info] 12016#6108: *33 connect: app='live/test' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://192.168.1.128:1935/live/test' tc_url='rtmp://192.168.1.128:1935/live/test' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:18:36 [info] 12016#6108: *33 connect: application not found: 'live/test', client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:18:36 [info] 12016#6108: *33 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:18:36 [info] 12016#6108: *33 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:18:42 [info] 12016#6108: *34 client connected '192.168.1.128'
+2024/06/30 18:18:42 [info] 12016#6108: *34 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://192.168.1.128:1935/live' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:18:42 [info] 12016#6108: *34 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:18:42 [info] 12016#6108: *34 publish: name='test' args='' type=live silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:18:42 [error] 12016#6108: *34 live: already publishing, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:18:42 [info] 12016#6108: *34 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:18:42 [info] 12016#6108: *34 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:18:42 [info] 12016#6108: *34 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:18:45 [info] 12016#6108: *24 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:18:45 [info] 12016#6108: *24 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:18:45 [info] 12016#6108: *25 disconnect, client: 192.168.1.50, server: 0.0.0.0:1935
+2024/06/30 18:18:45 [info] 12016#6108: *25 deleteStream, client: 192.168.1.50, server: 0.0.0.0:1935
+2024/06/30 18:18:45 [info] 12016#6108: *24 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:18:45 [info] 12016#6108: *24 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:18:46 [info] 12016#6108: *35 client connected '192.168.1.128'
+2024/06/30 18:18:46 [info] 12016#6108: *35 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://192.168.1.128:1935/live' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:18:46 [info] 12016#6108: *35 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:18:46 [info] 12016#6108: *35 publish: name='test' args='' type=live silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:24:44 [info] 12016#6108: *36 client connected '192.168.1.128'
+2024/06/30 18:24:44 [info] 12016#6108: *36 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://192.168.1.128:1935/live' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:24:44 [info] 12016#6108: *36 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:24:44 [info] 12016#6108: *36 publish: name='test' args='' type=live silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:24:44 [error] 12016#6108: *36 live: already publishing, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:24:44 [info] 12016#6108: *36 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:24:44 [info] 12016#6108: *36 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:24:44 [info] 12016#6108: *36 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:24:49 [info] 12016#6108: *35 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:24:49 [info] 12016#6108: *35 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:24:49 [info] 12016#6108: *35 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:24:49 [info] 12016#6108: *35 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:24:50 [info] 12016#6108: *37 client connected '192.168.1.128'
+2024/06/30 18:24:50 [info] 12016#6108: *37 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://192.168.1.128:1935/live' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:24:50 [info] 12016#6108: *37 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:24:50 [info] 12016#6108: *37 publish: name='test' args='' type=live silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 18:25:10 [info] 12016#6108: *30 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:25:10 [info] 12016#6108: *30 disconnect, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:25:10 [info] 12016#6108: *30 deleteStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:25:12 [info] 12016#6108: *38 client connected '192.168.1.130'
+2024/06/30 18:25:12 [info] 12016#6108: *38 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:25:12 [info] 12016#6108: *38 createStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:25:12 [info] 12016#6108: *38 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:35:31 [error] 12016#6108: *39 CreateFile() "C:\rtmp-server/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.1.128, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.128:8080", referrer: "http://192.168.1.128:8080/stat"
+2024/06/30 18:36:30 [info] 12016#6108: *40 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 192.168.1.128, server: 0.0.0.0:8080
+2024/06/30 18:39:15 [info] 12016#6108: *42 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 192.168.1.128, server: 0.0.0.0:8080
+2024/06/30 18:57:04 [info] 12016#6108: *38 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:57:04 [info] 12016#6108: *38 disconnect, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:57:04 [info] 12016#6108: *38 deleteStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 18:59:08 [info] 12016#6108: *43 client connected '192.168.1.106'
+2024/06/30 18:59:08 [info] 12016#6108: *43 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 18:59:08 [info] 12016#6108: *43 createStream, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 18:59:08 [info] 12016#6108: *43 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 19:01:39 [info] 12016#6108: *44 client connected '192.168.1.125'
+2024/06/30 19:01:39 [info] 12016#6108: *44 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.125, server: 0.0.0.0:1935
+2024/06/30 19:01:39 [info] 12016#6108: *44 createStream, client: 192.168.1.125, server: 0.0.0.0:1935
+2024/06/30 19:01:40 [info] 12016#6108: *44 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.125, server: 0.0.0.0:1935
+2024/06/30 19:02:57 [info] 12016#6108: *44 disconnect, client: 192.168.1.125, server: 0.0.0.0:1935
+2024/06/30 19:02:57 [info] 12016#6108: *44 deleteStream, client: 192.168.1.125, server: 0.0.0.0:1935
+2024/06/30 19:03:28 [info] 12016#6108: *43 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 19:03:28 [info] 12016#6108: *43 disconnect, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 19:03:28 [info] 12016#6108: *43 deleteStream, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 19:04:03 [info] 12016#6108: *45 client connected '192.168.1.106'
+2024/06/30 19:04:03 [info] 12016#6108: *45 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 19:04:03 [info] 12016#6108: *45 createStream, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 19:04:03 [info] 12016#6108: *45 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 19:19:35 [info] 12016#6108: *45 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 19:19:35 [info] 12016#6108: *45 disconnect, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 19:19:35 [info] 12016#6108: *45 deleteStream, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 19:28:12 [info] 12016#6108: *46 client connected '192.168.1.106'
+2024/06/30 19:28:12 [info] 12016#6108: *46 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 19:28:12 [info] 12016#6108: *46 createStream, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 19:28:12 [info] 12016#6108: *46 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 19:30:25 [info] 12016#6108: *47 client connected '192.168.1.50'
+2024/06/30 19:30:25 [info] 12016#6108: *47 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.50, server: 0.0.0.0:1935
+2024/06/30 19:30:25 [info] 12016#6108: *47 createStream, client: 192.168.1.50, server: 0.0.0.0:1935
+2024/06/30 19:30:25 [info] 12016#6108: *47 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.50, server: 0.0.0.0:1935
+2024/06/30 19:58:27 [info] 12016#6108: *46 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 19:58:27 [info] 12016#6108: *46 disconnect, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 19:58:27 [info] 12016#6108: *46 deleteStream, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 19:58:32 [info] 12016#6108: *47 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.50, server: 0.0.0.0:1935
+2024/06/30 19:58:32 [info] 12016#6108: *47 disconnect, client: 192.168.1.50, server: 0.0.0.0:1935
+2024/06/30 19:58:32 [info] 12016#6108: *47 deleteStream, client: 192.168.1.50, server: 0.0.0.0:1935
+2024/06/30 19:59:39 [info] 12016#6108: *37 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 19:59:39 [info] 12016#6108: *37 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 19:59:39 [info] 12016#6108: *37 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 19:59:39 [info] 12016#6108: *37 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 20:16:47 [info] 12016#6108: *48 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 192.168.1.128, server: 0.0.0.0:8080
+2024/06/30 20:30:05 [error] 12016#6108: *51 CreateFile() "C:\rtmp-server/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.1.130, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.128:8080", referrer: "http://192.168.1.128:8080/stat"
+2024/06/30 20:30:34 [info] 12016#6108: *50 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 192.168.1.128, server: 0.0.0.0:8080
+2024/06/30 20:30:40 [info] 12016#6108: *51 client 192.168.1.130 closed keepalive connection
+2024/06/30 20:36:38 [notice] 8016#15144: signal process started
+2024/06/30 20:36:38 [error] 8016#15144: OpenEvent("Global\ngx_stop_8440") failed (5: Access is denied)
+2024/06/30 20:37:08 [notice] 16112#10068: signal process started
+2024/06/30 20:37:08 [notice] 8440#12268: exiting
+2024/06/30 20:37:08 [notice] 12016#16372: gracefully shutting down
+2024/06/30 20:37:08 [notice] 12016#14988: exiting
+2024/06/30 20:37:09 [notice] 12016#6108: exiting
+2024/06/30 20:37:09 [notice] 12016#16372: exit
+2024/06/30 20:37:09 [notice] 8440#12268: worker process 12016 exited with code 0
+2024/06/30 20:37:09 [notice] 8440#12268: exit
+2024/06/30 20:37:09 [notice] 8008#2240: using the "select" event method
+2024/06/30 20:37:09 [notice] 8008#2240: nginx/1.14.1
+2024/06/30 20:37:09 [info] 8008#2240: OS: 260200 build:9200, "", suite:300, type:1
+2024/06/30 20:37:09 [notice] 8008#2240: start worker processes
+2024/06/30 20:37:09 [notice] 8008#2240: start worker process 7152
+2024/06/30 20:37:09 [notice] 7152#4448: nginx/1.14.1
+2024/06/30 20:37:09 [info] 7152#4448: OS: 260200 build:9200, "", suite:300, type:1
+2024/06/30 20:37:09 [notice] 7152#4448: create thread 16316
+2024/06/30 20:37:09 [notice] 7152#4448: create thread 16292
+2024/06/30 20:37:09 [notice] 7152#4448: create thread 16304
+2024/06/30 20:58:25 [notice] 16792#16852: using the "select" event method
+2024/06/30 20:58:25 [notice] 16792#16852: nginx/1.14.1
+2024/06/30 20:58:25 [info] 16792#16852: OS: 260200 build:9200, "", suite:300, type:1
+2024/06/30 20:58:25 [notice] 16792#16852: start worker processes
+2024/06/30 20:58:25 [notice] 16792#16852: start worker process 16812
+2024/06/30 20:58:25 [notice] 16812#16832: nginx/1.14.1
+2024/06/30 20:58:25 [info] 16812#16832: OS: 260200 build:9200, "", suite:300, type:1
+2024/06/30 20:58:25 [notice] 16812#16832: create thread 4524
+2024/06/30 20:58:25 [notice] 16812#16832: create thread 3028
+2024/06/30 20:58:25 [notice] 16812#16832: create thread 16708
+2024/06/30 20:58:39 [info] 16812#4524: *1 client connected '192.168.1.128'
+2024/06/30 20:58:39 [info] 16812#4524: *1 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://192.168.1.128:1935/live' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 20:58:39 [info] 16812#4524: *1 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 20:58:39 [info] 16812#4524: *1 publish: name='test' args='' type=live silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 20:58:43 [info] 16812#4524: *2 client connected '192.168.1.130'
+2024/06/30 20:58:43 [info] 16812#4524: *2 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 20:58:43 [info] 16812#4524: *2 createStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 20:58:43 [info] 16812#4524: *2 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 21:02:27 [info] 16812#4524: *3 client connected '192.168.1.125'
+2024/06/30 21:02:27 [info] 16812#4524: *3 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.125, server: 0.0.0.0:1935
+2024/06/30 21:02:27 [info] 16812#4524: *3 createStream, client: 192.168.1.125, server: 0.0.0.0:1935
+2024/06/30 21:02:28 [info] 16812#4524: *3 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.125, server: 0.0.0.0:1935
+2024/06/30 21:03:23 [info] 16812#4524: *3 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.125, server: 0.0.0.0:1935
+2024/06/30 21:03:23 [info] 16812#4524: *3 disconnect, client: 192.168.1.125, server: 0.0.0.0:1935
+2024/06/30 21:03:23 [info] 16812#4524: *3 deleteStream, client: 192.168.1.125, server: 0.0.0.0:1935
+2024/06/30 21:03:31 [info] 16812#4524: *4 client connected '192.168.1.125'
+2024/06/30 21:03:31 [info] 16812#4524: *4 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.125, server: 0.0.0.0:1935
+2024/06/30 21:03:31 [info] 16812#4524: *4 createStream, client: 192.168.1.125, server: 0.0.0.0:1935
+2024/06/30 21:03:31 [info] 16812#4524: *4 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.125, server: 0.0.0.0:1935
+2024/06/30 21:09:27 [info] 16812#4524: *4 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.125, server: 0.0.0.0:1935
+2024/06/30 21:09:27 [info] 16812#4524: *4 disconnect, client: 192.168.1.125, server: 0.0.0.0:1935
+2024/06/30 21:09:27 [info] 16812#4524: *4 deleteStream, client: 192.168.1.125, server: 0.0.0.0:1935
+2024/06/30 21:11:35 [info] 16812#4524: *5 client connected '192.168.1.106'
+2024/06/30 21:11:35 [info] 16812#4524: *5 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 21:11:35 [info] 16812#4524: *5 createStream, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 21:11:35 [info] 16812#4524: *5 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 21:11:35 [info] 16812#4524: *2 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 21:11:35 [info] 16812#4524: *2 disconnect, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 21:11:35 [info] 16812#4524: *2 deleteStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 21:50:15 [info] 16812#4524: *5 WSASend() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 21:50:15 [info] 16812#4524: *5 disconnect, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 21:50:15 [info] 16812#4524: *5 deleteStream, client: 192.168.1.106, server: 0.0.0.0:1935
+2024/06/30 21:50:18 [info] 16812#4524: *6 client connected '192.168.1.130'
+2024/06/30 21:50:18 [info] 16812#4524: *6 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 21:50:18 [info] 16812#4524: *6 createStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 21:50:18 [info] 16812#4524: *6 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 22:10:30 [info] 16812#4524: *1 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 22:10:30 [info] 16812#4524: *1 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 22:10:30 [info] 16812#4524: *1 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 22:10:30 [info] 16812#4524: *1 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 22:10:42 [info] 16812#4524: *7 client connected '192.168.1.128'
+2024/06/30 22:10:42 [info] 16812#4524: *7 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://192.168.1.128:1935/live' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 22:10:42 [info] 16812#4524: *7 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 22:10:42 [info] 16812#4524: *7 publish: name='test' args='' type=live silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 22:12:41 [info] 16812#4524: *6 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 22:12:41 [info] 16812#4524: *6 disconnect, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 22:12:41 [info] 16812#4524: *6 deleteStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/06/30 22:13:18 [info] 16812#4524: *7 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 22:13:18 [info] 16812#4524: *7 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 22:13:18 [info] 16812#4524: *7 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 22:13:18 [info] 16812#4524: *7 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/06/30 23:05:47 [notice] 9756#1360: using the "select" event method
+2024/06/30 23:05:47 [notice] 9756#1360: nginx/1.14.1
+2024/06/30 23:05:47 [info] 9756#1360: OS: 260200 build:9200, "", suite:300, type:1
+2024/06/30 23:05:47 [notice] 9756#1360: start worker processes
+2024/06/30 23:05:47 [notice] 9756#1360: start worker process 13192
+2024/06/30 23:05:47 [notice] 13192#1268: nginx/1.14.1
+2024/06/30 23:05:47 [info] 13192#1268: OS: 260200 build:9200, "", suite:300, type:1
+2024/06/30 23:05:47 [notice] 13192#1268: create thread 8580
+2024/06/30 23:05:47 [notice] 13192#1268: create thread 12172
+2024/06/30 23:05:47 [notice] 13192#1268: create thread 2924
+2024/06/30 23:06:15 [notice] 7948#13300: signal process started
+2024/06/30 23:06:15 [notice] 9756#1360: exiting
+2024/06/30 23:06:15 [notice] 13192#1268: gracefully shutting down
+2024/06/30 23:06:15 [notice] 13192#12172: exiting
+2024/06/30 23:06:15 [notice] 13192#8580: exiting
+2024/06/30 23:06:15 [notice] 13192#1268: exit
+2024/06/30 23:06:15 [notice] 9756#1360: worker process 13192 exited with code 0
+2024/06/30 23:06:15 [notice] 9756#1360: exit
+2024/06/30 23:26:29 [notice] 7292#5676: using the "select" event method
+2024/06/30 23:26:29 [notice] 7292#5676: nginx/1.14.1
+2024/06/30 23:26:29 [info] 7292#5676: OS: 260200 build:9200, "", suite:300, type:1
+2024/06/30 23:26:29 [notice] 7292#5676: start worker processes
+2024/06/30 23:26:29 [notice] 7292#5676: start worker process 7584
+2024/06/30 23:26:29 [notice] 7584#1724: nginx/1.14.1
+2024/06/30 23:26:29 [info] 7584#1724: OS: 260200 build:9200, "", suite:300, type:1
+2024/06/30 23:26:29 [notice] 7584#1724: create thread 18808
+2024/06/30 23:26:29 [notice] 7584#1724: create thread 5648
+2024/06/30 23:26:29 [notice] 7584#1724: create thread 11868
+2024/06/30 23:27:40 [info] 7584#18808: *1 client connected '192.168.101.200'
+2024/06/30 23:27:40 [info] 7584#18808: *1 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://192.168.101.200:1935/live' tc_url='rtmp://192.168.101.200:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.101.200, server: 0.0.0.0:1935
+2024/06/30 23:27:40 [info] 7584#18808: *1 createStream, client: 192.168.101.200, server: 0.0.0.0:1935
+2024/06/30 23:27:40 [info] 7584#18808: *1 publish: name='test' args='' type=live silent=0, client: 192.168.101.200, server: 0.0.0.0:1935
+2024/06/30 23:29:08 [info] 7584#18808: *2 client connected '192.168.101.200'
+2024/06/30 23:29:08 [info] 7584#18808: *2 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.101.200:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.101.200, server: 0.0.0.0:1935
+2024/06/30 23:29:08 [info] 7584#18808: *2 createStream, client: 192.168.101.200, server: 0.0.0.0:1935
+2024/06/30 23:29:08 [info] 7584#18808: *2 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.101.200, server: 0.0.0.0:1935
+2024/06/30 23:30:36 [info] 7584#18808: *3 client connected '172.30.224.2'
+2024/06/30 23:30:36 [info] 7584#18808: *3 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.101.200:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 172.30.224.2, server: 0.0.0.0:1935
+2024/06/30 23:30:36 [info] 7584#18808: *3 createStream, client: 172.30.224.2, server: 0.0.0.0:1935
+2024/06/30 23:30:36 [info] 7584#18808: *3 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 172.30.224.2, server: 0.0.0.0:1935
+2024/06/30 23:30:59 [info] 7584#18808: *2 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.101.200, server: 0.0.0.0:1935
+2024/06/30 23:30:59 [info] 7584#18808: *2 disconnect, client: 192.168.101.200, server: 0.0.0.0:1935
+2024/06/30 23:30:59 [info] 7584#18808: *2 deleteStream, client: 192.168.101.200, server: 0.0.0.0:1935
+2024/06/30 23:32:18 [info] 7584#18808: *4 client connected '172.16.20.1'
+2024/06/30 23:32:18 [info] 7584#18808: *4 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.101.200:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 172.16.20.1, server: 0.0.0.0:1935
+2024/06/30 23:32:18 [info] 7584#18808: *4 createStream, client: 172.16.20.1, server: 0.0.0.0:1935
+2024/06/30 23:32:18 [info] 7584#18808: *4 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 172.16.20.1, server: 0.0.0.0:1935
+2024/06/30 23:32:41 [info] 7584#18808: *4 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 172.16.20.1, server: 0.0.0.0:1935
+2024/06/30 23:32:41 [info] 7584#18808: *4 disconnect, client: 172.16.20.1, server: 0.0.0.0:1935
+2024/06/30 23:32:41 [info] 7584#18808: *4 deleteStream, client: 172.16.20.1, server: 0.0.0.0:1935
+2024/06/30 23:32:42 [info] 7584#18808: *5 client connected '172.16.20.1'
+2024/06/30 23:32:42 [info] 7584#18808: *5 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.101.200:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 172.16.20.1, server: 0.0.0.0:1935
+2024/06/30 23:32:42 [info] 7584#18808: *5 createStream, client: 172.16.20.1, server: 0.0.0.0:1935
+2024/06/30 23:32:42 [info] 7584#18808: *5 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 172.16.20.1, server: 0.0.0.0:1935
+2024/06/30 23:32:46 [info] 7584#18808: *5 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 172.16.20.1, server: 0.0.0.0:1935
+2024/06/30 23:32:46 [info] 7584#18808: *5 disconnect, client: 172.16.20.1, server: 0.0.0.0:1935
+2024/06/30 23:32:46 [info] 7584#18808: *5 deleteStream, client: 172.16.20.1, server: 0.0.0.0:1935
+2024/06/30 23:32:46 [info] 7584#18808: *6 client connected '172.16.20.1'
+2024/06/30 23:32:46 [info] 7584#18808: *6 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.101.200:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 172.16.20.1, server: 0.0.0.0:1935
+2024/06/30 23:32:46 [info] 7584#18808: *6 createStream, client: 172.16.20.1, server: 0.0.0.0:1935
+2024/06/30 23:32:46 [info] 7584#18808: *6 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 172.16.20.1, server: 0.0.0.0:1935
+2024/06/30 23:32:47 [info] 7584#18808: *6 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 172.16.20.1, server: 0.0.0.0:1935
+2024/06/30 23:32:47 [info] 7584#18808: *6 disconnect, client: 172.16.20.1, server: 0.0.0.0:1935
+2024/06/30 23:32:47 [info] 7584#18808: *6 deleteStream, client: 172.16.20.1, server: 0.0.0.0:1935
+2024/06/30 23:32:47 [info] 7584#18808: *7 client connected '172.16.20.1'
+2024/06/30 23:32:47 [info] 7584#18808: *7 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.101.200:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 172.16.20.1, server: 0.0.0.0:1935
+2024/06/30 23:32:47 [info] 7584#18808: *7 createStream, client: 172.16.20.1, server: 0.0.0.0:1935
+2024/06/30 23:32:47 [info] 7584#18808: *7 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 172.16.20.1, server: 0.0.0.0:1935
+2024/06/30 23:33:37 [info] 7584#18808: *3 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 172.30.224.2, server: 0.0.0.0:1935
+2024/06/30 23:33:37 [info] 7584#18808: *3 disconnect, client: 172.30.224.2, server: 0.0.0.0:1935
+2024/06/30 23:33:37 [info] 7584#18808: *3 deleteStream, client: 172.30.224.2, server: 0.0.0.0:1935
+2024/06/30 23:39:46 [info] 7584#18808: *7 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 172.16.20.1, server: 0.0.0.0:1935
+2024/06/30 23:39:46 [info] 7584#18808: *7 disconnect, client: 172.16.20.1, server: 0.0.0.0:1935
+2024/06/30 23:39:46 [info] 7584#18808: *7 deleteStream, client: 172.16.20.1, server: 0.0.0.0:1935
+2024/06/30 23:41:55 [info] 7584#18808: *8 client connected '172.16.20.1'
+2024/06/30 23:41:55 [info] 7584#18808: *8 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.101.200:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 172.16.20.1, server: 0.0.0.0:1935
+2024/06/30 23:41:55 [info] 7584#18808: *8 createStream, client: 172.16.20.1, server: 0.0.0.0:1935
+2024/06/30 23:41:55 [info] 7584#18808: *8 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 172.16.20.1, server: 0.0.0.0:1935
+2024/06/30 23:48:18 [info] 7584#18808: *1 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.101.200, server: 0.0.0.0:1935
+2024/06/30 23:48:18 [info] 7584#18808: *1 disconnect, client: 192.168.101.200, server: 0.0.0.0:1935
+2024/06/30 23:48:18 [info] 7584#18808: *1 deleteStream, client: 192.168.101.200, server: 0.0.0.0:1935
+2024/06/30 23:48:18 [info] 7584#18808: *8 disconnect, client: 172.16.20.1, server: 0.0.0.0:1935
+2024/06/30 23:48:18 [info] 7584#18808: *8 deleteStream, client: 172.16.20.1, server: 0.0.0.0:1935
+2024/06/30 23:51:45 [notice] 388#3596: signal process started
+2024/06/30 23:51:45 [notice] 7292#5676: exiting
+2024/06/30 23:51:45 [notice] 7584#1724: gracefully shutting down
+2024/06/30 23:51:45 [notice] 7584#5648: exiting
+2024/06/30 23:51:46 [notice] 7584#18808: exiting
+2024/06/30 23:51:46 [notice] 7584#1724: exit
+2024/06/30 23:51:46 [notice] 7292#5676: worker process 7584 exited with code 0
+2024/06/30 23:51:46 [notice] 7292#5676: exit
+2024/06/30 23:51:48 [notice] 18012#6440: using the "select" event method
+2024/06/30 23:51:48 [notice] 18012#6440: nginx/1.14.1
+2024/06/30 23:51:48 [info] 18012#6440: OS: 260200 build:9200, "", suite:300, type:1
+2024/06/30 23:51:48 [notice] 18012#6440: start worker processes
+2024/06/30 23:51:48 [notice] 18012#6440: start worker process 18112
+2024/06/30 23:51:48 [notice] 18112#2056: nginx/1.14.1
+2024/06/30 23:51:48 [info] 18112#2056: OS: 260200 build:9200, "", suite:300, type:1
+2024/06/30 23:51:48 [notice] 18112#2056: create thread 18932
+2024/06/30 23:51:48 [notice] 18112#2056: create thread 10780
+2024/06/30 23:51:48 [notice] 18112#2056: create thread 16900
+2024/06/30 23:52:17 [info] 18112#18932: *1 client connected '192.168.150.252'
+2024/06/30 23:52:17 [info] 18112#18932: *1 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://192.168.150.252:1935/live' tc_url='rtmp://192.168.150.252:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.150.252, server: 0.0.0.0:1935
+2024/06/30 23:52:17 [info] 18112#18932: *1 createStream, client: 192.168.150.252, server: 0.0.0.0:1935
+2024/06/30 23:52:17 [info] 18112#18932: *1 publish: name='test' args='' type=live silent=0, client: 192.168.150.252, server: 0.0.0.0:1935
+2024/06/30 23:53:00 [info] 18112#18932: *2 client connected '192.168.150.1'
+2024/06/30 23:53:00 [info] 18112#18932: *2 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.150.252:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:53:00 [info] 18112#18932: *2 createStream, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:53:00 [info] 18112#18932: *2 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:53:43 [info] 18112#18932: *3 client connected '192.168.150.252'
+2024/06/30 23:53:43 [info] 18112#18932: *3 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.150.252:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.150.252, server: 0.0.0.0:1935
+2024/06/30 23:53:43 [info] 18112#18932: *3 createStream, client: 192.168.150.252, server: 0.0.0.0:1935
+2024/06/30 23:53:43 [info] 18112#18932: *3 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.150.252, server: 0.0.0.0:1935
+2024/06/30 23:54:09 [info] 18112#18932: *3 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.150.252, server: 0.0.0.0:1935
+2024/06/30 23:54:09 [info] 18112#18932: *3 disconnect, client: 192.168.150.252, server: 0.0.0.0:1935
+2024/06/30 23:54:09 [info] 18112#18932: *3 deleteStream, client: 192.168.150.252, server: 0.0.0.0:1935
+2024/06/30 23:54:12 [info] 18112#18932: *1 deleteStream, client: 192.168.150.252, server: 0.0.0.0:1935
+2024/06/30 23:54:12 [info] 18112#18932: *1 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 192.168.150.252, server: 0.0.0.0:1935
+2024/06/30 23:54:12 [info] 18112#18932: *1 disconnect, client: 192.168.150.252, server: 0.0.0.0:1935
+2024/06/30 23:54:12 [info] 18112#18932: *1 deleteStream, client: 192.168.150.252, server: 0.0.0.0:1935
+2024/06/30 23:54:13 [info] 18112#18932: *4 client connected '192.168.150.252'
+2024/06/30 23:54:13 [info] 18112#18932: *4 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://192.168.150.252:1935/live' tc_url='rtmp://192.168.150.252:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.150.252, server: 0.0.0.0:1935
+2024/06/30 23:54:13 [info] 18112#18932: *4 createStream, client: 192.168.150.252, server: 0.0.0.0:1935
+2024/06/30 23:54:13 [info] 18112#18932: *4 publish: name='test' args='' type=live silent=0, client: 192.168.150.252, server: 0.0.0.0:1935
+2024/06/30 23:54:25 [info] 18112#18932: *2 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:54:25 [info] 18112#18932: *2 disconnect, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:54:25 [info] 18112#18932: *2 deleteStream, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:54:25 [info] 18112#18932: *5 client connected '192.168.150.1'
+2024/06/30 23:54:25 [info] 18112#18932: *5 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.150.252:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:54:25 [info] 18112#18932: *5 createStream, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:54:25 [info] 18112#18932: *5 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:54:27 [info] 18112#18932: *5 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:54:27 [info] 18112#18932: *5 disconnect, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:54:27 [info] 18112#18932: *5 deleteStream, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:54:27 [info] 18112#18932: *6 client connected '192.168.150.1'
+2024/06/30 23:54:27 [info] 18112#18932: *6 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.150.252:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:54:27 [info] 18112#18932: *6 createStream, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:54:27 [info] 18112#18932: *6 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:54:28 [info] 18112#18932: *6 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:54:28 [info] 18112#18932: *6 disconnect, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:54:28 [info] 18112#18932: *6 deleteStream, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:54:28 [info] 18112#18932: *7 client connected '192.168.150.1'
+2024/06/30 23:54:28 [info] 18112#18932: *7 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.150.252:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:54:29 [info] 18112#18932: *7 createStream, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:54:29 [info] 18112#18932: *7 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:54:29 [info] 18112#18932: *7 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:54:29 [info] 18112#18932: *7 disconnect, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:54:29 [info] 18112#18932: *7 deleteStream, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:54:29 [info] 18112#18932: *8 client connected '192.168.150.1'
+2024/06/30 23:54:29 [info] 18112#18932: *8 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.150.252:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:54:30 [info] 18112#18932: *8 createStream, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:54:30 [info] 18112#18932: *8 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:55:25 [info] 18112#18932: *9 client connected '192.168.150.252'
+2024/06/30 23:55:25 [info] 18112#18932: *9 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.150.252:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.150.252, server: 0.0.0.0:1935
+2024/06/30 23:55:25 [info] 18112#18932: *9 createStream, client: 192.168.150.252, server: 0.0.0.0:1935
+2024/06/30 23:55:25 [info] 18112#18932: *9 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.150.252, server: 0.0.0.0:1935
+2024/06/30 23:55:47 [info] 18112#18932: *9 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.150.252, server: 0.0.0.0:1935
+2024/06/30 23:55:47 [info] 18112#18932: *9 disconnect, client: 192.168.150.252, server: 0.0.0.0:1935
+2024/06/30 23:55:47 [info] 18112#18932: *9 deleteStream, client: 192.168.150.252, server: 0.0.0.0:1935
+2024/06/30 23:55:56 [info] 18112#18932: *10 client connected '192.168.150.1'
+2024/06/30 23:55:56 [info] 18112#18932: *10 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.150.252:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:55:56 [info] 18112#18932: *10 createStream, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:55:56 [info] 18112#18932: *10 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:57:05 [info] 18112#18932: *10 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:57:05 [info] 18112#18932: *10 disconnect, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:57:05 [info] 18112#18932: *10 deleteStream, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:57:05 [info] 18112#18932: *11 client connected '192.168.150.1'
+2024/06/30 23:57:05 [info] 18112#18932: *11 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.150.252:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:57:05 [info] 18112#18932: *11 createStream, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/06/30 23:57:05 [info] 18112#18932: *11 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/07/01 00:00:23 [error] 18112#18932: *12 CreateFile() "c:\rtmp-server/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.150.252, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.150.252:8080", referrer: "http://192.168.150.252:8080/stat"
+2024/07/01 00:00:49 [info] 18112#18932: *14 client connected '192.168.150.1'
+2024/07/01 00:00:49 [info] 18112#18932: *14 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.150.252:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/07/01 00:00:49 [info] 18112#18932: *14 createStream, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/07/01 00:00:49 [info] 18112#18932: *14 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/07/01 00:01:18 [info] 18112#18932: *8 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.150.1, server: 0.0.0.0:1935
+2024/07/01 00:01:18 [info] 18112#18932: *8 disconnect, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/07/01 00:01:18 [info] 18112#18932: *8 deleteStream, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/07/01 00:01:23 [info] 18112#18932: *13 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 192.168.150.252, server: 0.0.0.0:8080
+2024/07/01 00:01:58 [info] 18112#18932: *14 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.150.1, server: 0.0.0.0:1935
+2024/07/01 00:01:58 [info] 18112#18932: *14 disconnect, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/07/01 00:01:58 [info] 18112#18932: *14 deleteStream, client: 192.168.150.1, server: 0.0.0.0:1935
+2024/07/01 00:04:01 [info] 18112#18932: *4 deleteStream, client: 192.168.150.252, server: 0.0.0.0:1935
+2024/07/01 00:04:01 [info] 18112#18932: *4 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 192.168.150.252, server: 0.0.0.0:1935
+2024/07/01 00:04:01 [info] 18112#18932: *4 disconnect, client: 192.168.150.252, server: 0.0.0.0:1935
+2024/07/01 00:04:01 [info] 18112#18932: *4 deleteStream, client: 192.168.150.252, server: 0.0.0.0:1935
+2024/07/01 07:23:30 [notice] 18788#20176: using the "select" event method
+2024/07/01 07:23:30 [notice] 18788#20176: nginx/1.14.1
+2024/07/01 07:23:30 [info] 18788#20176: OS: 260200 build:9200, "", suite:300, type:1
+2024/07/01 07:23:30 [notice] 18788#20176: start worker processes
+2024/07/01 07:23:30 [notice] 18788#20176: start worker process 11592
+2024/07/01 07:23:30 [notice] 11592#13412: nginx/1.14.1
+2024/07/01 07:23:30 [info] 11592#13412: OS: 260200 build:9200, "", suite:300, type:1
+2024/07/01 07:23:30 [notice] 11592#13412: create thread 12692
+2024/07/01 07:23:30 [notice] 11592#13412: create thread 19132
+2024/07/01 07:23:30 [notice] 11592#13412: create thread 11804
+2024/07/01 07:23:57 [info] 11592#12692: *1 client connected '127.0.0.1'
+2024/07/01 07:23:57 [info] 11592#12692: *1 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf61.4.' swf_url='' tc_url='rtmp://localhost:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:23:57 [info] 11592#12692: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:23:57 [info] 11592#12692: *1 publish: name='stream' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:24:02 [info] 11592#12692: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:24:02 [info] 11592#12692: *1 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:24:02 [info] 11592#12692: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:24:02 [info] 11592#12692: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:26:40 [info] 11592#12692: *2 client connected '127.0.0.1'
+2024/07/01 07:26:40 [info] 11592#12692: *2 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:26:40 [info] 11592#12692: *2 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:26:40 [info] 11592#12692: *2 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:26:59 [info] 11592#12692: *2 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:26:59 [info] 11592#12692: *2 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:31:03 [info] 11592#12692: *3 client connected '127.0.0.1'
+2024/07/01 07:31:03 [info] 11592#12692: *3 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf61.4.' swf_url='' tc_url='rtmp://localhost:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:31:03 [info] 11592#12692: *3 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:31:03 [info] 11592#12692: *3 publish: name='stream' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:31:12 [info] 11592#12692: *4 client connected '127.0.0.1'
+2024/07/01 07:31:12 [info] 11592#12692: *4 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:31:12 [info] 11592#12692: *4 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:31:12 [info] 11592#12692: *4 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:32:57 [info] 11592#12692: *4 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:32:57 [info] 11592#12692: *4 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:32:57 [info] 11592#12692: *4 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:32:57 [info] 11592#12692: *5 client connected '127.0.0.1'
+2024/07/01 07:32:57 [info] 11592#12692: *5 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:32:57 [info] 11592#12692: *5 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:32:57 [info] 11592#12692: *5 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:35:18 [info] 11592#12692: *3 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:35:18 [info] 11592#12692: *3 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:35:18 [info] 11592#12692: *3 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:35:24 [info] 11592#12692: *6 client connected '127.0.0.1'
+2024/07/01 07:35:24 [info] 11592#12692: *6 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf61.4.' swf_url='' tc_url='rtmp://localhost:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:35:24 [info] 11592#12692: *6 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:35:24 [info] 11592#12692: *6 publish: name='stream' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:35:47 [info] 11592#12692: *5 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:35:47 [info] 11592#12692: *5 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:35:47 [info] 11592#12692: *7 client connected '127.0.0.1'
+2024/07/01 07:35:47 [info] 11592#12692: *7 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:35:47 [info] 11592#12692: *7 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:35:47 [info] 11592#12692: *7 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:36:07 [info] 11592#12692: *8 client connected '127.0.0.1'
+2024/07/01 07:36:07 [info] 11592#12692: *8 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf61.4.' swf_url='' tc_url='rtmp://localhost:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:36:07 [info] 11592#12692: *8 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:36:07 [info] 11592#12692: *8 publish: name='stream' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:36:07 [error] 11592#12692: *8 live: already publishing, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:36:07 [info] 11592#12692: *8 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:36:07 [info] 11592#12692: *8 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:36:17 [info] 11592#12692: *6 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:36:17 [info] 11592#12692: *6 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:36:17 [info] 11592#12692: *6 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:36:24 [info] 11592#12692: *9 client connected '127.0.0.1'
+2024/07/01 07:36:24 [info] 11592#12692: *9 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf61.4.' swf_url='' tc_url='rtmp://localhost:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:36:24 [info] 11592#12692: *9 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:36:24 [info] 11592#12692: *9 publish: name='stream' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:38:31 [info] 11592#12692: *7 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:38:31 [info] 11592#12692: *7 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:38:31 [info] 11592#12692: *7 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:38:36 [info] 11592#12692: *9 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:38:36 [info] 11592#12692: *9 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:38:36 [info] 11592#12692: *9 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2024/07/01 07:39:03 [info] 11592#12692: *10 client connected '192.168.1.128'
+2024/07/01 07:39:03 [info] 11592#12692: *10 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf61.4.' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 07:39:03 [info] 11592#12692: *10 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 07:39:03 [info] 11592#12692: *10 publish: name='stream' args='' type=live silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 07:39:17 [info] 11592#12692: *11 client connected '192.168.1.128'
+2024/07/01 07:39:17 [info] 11592#12692: *11 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 07:39:17 [info] 11592#12692: *11 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 07:39:17 [info] 11592#12692: *11 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 07:39:57 [info] 11592#12692: *12 client connected '192.168.1.50'
+2024/07/01 07:39:57 [info] 11592#12692: *12 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.50, server: 0.0.0.0:1935
+2024/07/01 07:39:57 [info] 11592#12692: *12 createStream, client: 192.168.1.50, server: 0.0.0.0:1935
+2024/07/01 07:39:57 [info] 11592#12692: *12 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.50, server: 0.0.0.0:1935
+2024/07/01 07:40:32 [info] 11592#12692: *11 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 07:40:32 [info] 11592#12692: *11 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 07:40:34 [info] 11592#12692: *12 disconnect, client: 192.168.1.50, server: 0.0.0.0:1935
+2024/07/01 07:40:34 [info] 11592#12692: *12 deleteStream, client: 192.168.1.50, server: 0.0.0.0:1935
+2024/07/01 08:12:22 [info] 11592#12692: *10 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:12:22 [info] 11592#12692: *10 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:12:22 [info] 11592#12692: *10 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:32:00 [info] 11592#12692: *13 client connected '192.168.1.128'
+2024/07/01 08:32:00 [info] 11592#12692: *13 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf61.4.' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:32:00 [info] 11592#12692: *13 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:32:00 [info] 11592#12692: *13 publish: name='stream' args='' type=live silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:32:37 [info] 11592#12692: *14 client connected '192.168.1.128'
+2024/07/01 08:32:37 [info] 11592#12692: *14 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf61.4.' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:32:37 [info] 11592#12692: *14 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:32:37 [info] 11592#12692: *14 publish: name='stream' args='' type=live silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:32:37 [error] 11592#12692: *14 live: already publishing, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:32:37 [info] 11592#12692: *14 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:32:37 [info] 11592#12692: *14 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:33:15 [info] 11592#12692: *15 client connected '192.168.1.128'
+2024/07/01 08:33:15 [info] 11592#12692: *15 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:33:15 [info] 11592#12692: *15 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:33:15 [info] 11592#12692: *15 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:33:40 [info] 11592#12692: *16 client connected '192.168.1.128'
+2024/07/01 08:33:40 [info] 11592#12692: *16 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf61.4.' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:33:40 [info] 11592#12692: *16 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:33:40 [info] 11592#12692: *16 publish: name='stream' args='' type=live silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:33:40 [error] 11592#12692: *16 live: already publishing, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:33:40 [info] 11592#12692: *16 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:33:40 [info] 11592#12692: *16 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:33:48 [info] 11592#12692: *15 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:33:48 [info] 11592#12692: *15 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:33:52 [info] 11592#12692: *13 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:33:52 [info] 11592#12692: *13 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:33:52 [info] 11592#12692: *13 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:34:01 [info] 11592#12692: *17 client connected '192.168.1.128'
+2024/07/01 08:34:01 [info] 11592#12692: *17 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf61.4.' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:34:01 [info] 11592#12692: *17 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:34:01 [info] 11592#12692: *17 publish: name='stream' args='' type=live silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:34:10 [info] 11592#12692: *18 client connected '192.168.1.128'
+2024/07/01 08:34:10 [info] 11592#12692: *18 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:34:10 [info] 11592#12692: *18 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:34:10 [info] 11592#12692: *18 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:34:39 [info] 11592#12692: *18 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:34:39 [info] 11592#12692: *18 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:34:39 [info] 11592#12692: *18 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:34:39 [info] 11592#12692: *19 client connected '192.168.1.128'
+2024/07/01 08:34:39 [info] 11592#12692: *19 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:34:39 [info] 11592#12692: *19 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:34:39 [info] 11592#12692: *19 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:39:01 [info] 11592#12692: *20 client connected '192.168.1.50'
+2024/07/01 08:39:01 [info] 11592#12692: *20 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.50, server: 0.0.0.0:1935
+2024/07/01 08:39:02 [info] 11592#12692: *20 createStream, client: 192.168.1.50, server: 0.0.0.0:1935
+2024/07/01 08:39:02 [info] 11592#12692: *20 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.50, server: 0.0.0.0:1935
+2024/07/01 08:40:18 [info] 11592#12692: *17 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:40:18 [info] 11592#12692: *17 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:40:18 [info] 11592#12692: *17 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:40:23 [info] 11592#12692: *19 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:40:23 [info] 11592#12692: *19 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:40:25 [info] 11592#12692: *20 disconnect, client: 192.168.1.50, server: 0.0.0.0:1935
+2024/07/01 08:40:25 [info] 11592#12692: *20 deleteStream, client: 192.168.1.50, server: 0.0.0.0:1935
+2024/07/01 08:42:33 [info] 11592#12692: *21 client connected '192.168.1.50'
+2024/07/01 08:42:33 [info] 11592#12692: *21 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.50, server: 0.0.0.0:1935
+2024/07/01 08:42:33 [info] 11592#12692: *21 createStream, client: 192.168.1.50, server: 0.0.0.0:1935
+2024/07/01 08:42:33 [info] 11592#12692: *21 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.50, server: 0.0.0.0:1935
+2024/07/01 08:42:59 [info] 11592#12692: *21 disconnect, client: 192.168.1.50, server: 0.0.0.0:1935
+2024/07/01 08:42:59 [info] 11592#12692: *21 deleteStream, client: 192.168.1.50, server: 0.0.0.0:1935
+2024/07/01 08:42:59 [info] 11592#12692: *22 client connected '192.168.1.50'
+2024/07/01 08:42:59 [info] 11592#12692: *22 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.50, server: 0.0.0.0:1935
+2024/07/01 08:42:59 [info] 11592#12692: *22 createStream, client: 192.168.1.50, server: 0.0.0.0:1935
+2024/07/01 08:42:59 [info] 11592#12692: *22 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.50, server: 0.0.0.0:1935
+2024/07/01 08:43:06 [info] 11592#12692: *23 client connected '192.168.1.128'
+2024/07/01 08:43:06 [info] 11592#12692: *23 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:43:06 [info] 11592#12692: *23 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:43:06 [info] 11592#12692: *23 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:47:43 [info] 11592#12692: *23 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 08:47:43 [info] 11592#12692: *23 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:38:18 [notice] 15188#15180: using the "select" event method
+2024/07/01 16:38:18 [notice] 15188#15180: nginx/1.14.1
+2024/07/01 16:38:18 [info] 15188#15180: OS: 260200 build:9200, "", suite:300, type:1
+2024/07/01 16:38:18 [notice] 15188#15180: start worker processes
+2024/07/01 16:38:18 [notice] 15188#15180: start worker process 8120
+2024/07/01 16:38:18 [notice] 8120#8104: nginx/1.14.1
+2024/07/01 16:38:18 [info] 8120#8104: OS: 260200 build:9200, "", suite:300, type:1
+2024/07/01 16:38:18 [notice] 8120#8104: create thread 6340
+2024/07/01 16:38:18 [notice] 8120#8104: create thread 4828
+2024/07/01 16:38:18 [notice] 8120#8104: create thread 15280
+2024/07/01 16:41:06 [info] 8120#6340: *1 client connected '192.168.1.128'
+2024/07/01 16:41:06 [info] 8120#6340: *1 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf61.4.' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:41:06 [info] 8120#6340: *1 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:41:06 [info] 8120#6340: *1 publish: name='stream' args='' type=live silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:43:18 [info] 8120#6340: *2 client connected '192.168.1.130'
+2024/07/01 16:43:18 [info] 8120#6340: *2 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:43:18 [info] 8120#6340: *2 createStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:43:18 [info] 8120#6340: *2 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:44:37 [info] 8120#6340: *2 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:44:37 [info] 8120#6340: *2 disconnect, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:44:37 [info] 8120#6340: *2 deleteStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:44:37 [info] 8120#6340: *3 client connected '192.168.1.130'
+2024/07/01 16:44:37 [info] 8120#6340: *3 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:44:37 [info] 8120#6340: *3 createStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:44:37 [info] 8120#6340: *3 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:44:56 [info] 8120#6340: *1 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:44:56 [info] 8120#6340: *1 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:44:56 [info] 8120#6340: *1 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:45:28 [info] 8120#6340: *4 client connected '192.168.1.128'
+2024/07/01 16:45:28 [info] 8120#6340: *4 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf61.4.' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:45:28 [info] 8120#6340: *4 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:45:28 [info] 8120#6340: *4 publish: name='stream' args='' type=live silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:45:32 [info] 8120#6340: *3 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:45:32 [info] 8120#6340: *3 disconnect, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:45:32 [info] 8120#6340: *3 deleteStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:45:32 [info] 8120#6340: *5 client connected '192.168.1.130'
+2024/07/01 16:45:32 [info] 8120#6340: *5 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:45:32 [info] 8120#6340: *5 createStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:45:32 [info] 8120#6340: *5 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:45:38 [info] 8120#6340: *5 disconnect, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:45:38 [info] 8120#6340: *5 deleteStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:45:38 [info] 8120#6340: *6 client connected '192.168.1.130'
+2024/07/01 16:45:38 [info] 8120#6340: *6 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:45:38 [info] 8120#6340: *6 createStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:45:38 [info] 8120#6340: *6 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:45:46 [info] 8120#6340: *6 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:45:46 [info] 8120#6340: *6 disconnect, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:45:46 [info] 8120#6340: *6 deleteStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:46:05 [info] 8120#6340: *7 client connected '192.168.1.130'
+2024/07/01 16:46:05 [info] 8120#6340: *7 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:46:05 [info] 8120#6340: *7 createStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:46:05 [info] 8120#6340: *7 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:46:56 [info] 8120#6340: *7 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:46:56 [info] 8120#6340: *7 disconnect, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:46:56 [info] 8120#6340: *7 deleteStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:46:56 [info] 8120#6340: *8 client connected '192.168.1.130'
+2024/07/01 16:46:56 [info] 8120#6340: *8 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:46:56 [info] 8120#6340: *8 createStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:46:56 [info] 8120#6340: *8 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:47:15 [info] 8120#6340: *4 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:47:15 [info] 8120#6340: *4 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:47:15 [info] 8120#6340: *4 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:47:41 [info] 8120#6340: *9 client connected '192.168.1.128'
+2024/07/01 16:47:41 [info] 8120#6340: *9 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf61.4.' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:47:41 [info] 8120#6340: *9 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:47:41 [info] 8120#6340: *9 publish: name='stream' args='' type=live silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:47:51 [info] 8120#6340: *10 client connected '192.168.1.128'
+2024/07/01 16:47:51 [info] 8120#6340: *10 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:47:51 [info] 8120#6340: *10 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:47:51 [info] 8120#6340: *10 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:48:09 [info] 8120#6340: *10 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:48:09 [info] 8120#6340: *10 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:48:09 [info] 8120#6340: *10 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:48:16 [info] 8120#6340: *11 client connected '192.168.1.128'
+2024/07/01 16:48:16 [info] 8120#6340: *11 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:48:16 [info] 8120#6340: *11 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:48:16 [info] 8120#6340: *11 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:48:40 [info] 8120#6340: *11 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:48:40 [info] 8120#6340: *11 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:48:40 [info] 8120#6340: *11 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:48:41 [info] 8120#6340: *12 client connected '192.168.1.128'
+2024/07/01 16:48:41 [info] 8120#6340: *12 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:48:41 [info] 8120#6340: *12 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:48:41 [info] 8120#6340: *12 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:48:58 [info] 8120#6340: *9 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:48:58 [info] 8120#6340: *9 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:48:58 [info] 8120#6340: *9 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:50:50 [info] 8120#6340: *13 client connected '192.168.1.143'
+2024/07/01 16:50:50 [info] 8120#6340: *13 connect: app='live' args='' flashver='FMLE/3.0 (compatible; vMix/26.0' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.143, server: 0.0.0.0:1935
+2024/07/01 16:50:51 [info] 8120#6340: *13 createStream, client: 192.168.1.143, server: 0.0.0.0:1935
+2024/07/01 16:50:51 [info] 8120#6340: *13 publish: name='stream' args='' type=live silent=0, client: 192.168.1.143, server: 0.0.0.0:1935
+2024/07/01 16:50:59 [info] 8120#6340: *12 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:50:59 [info] 8120#6340: *12 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:50:59 [info] 8120#6340: *12 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:50:59 [info] 8120#6340: *14 client connected '192.168.1.128'
+2024/07/01 16:50:59 [info] 8120#6340: *14 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:50:59 [info] 8120#6340: *14 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:50:59 [info] 8120#6340: *14 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:51:50 [info] 8120#6340: *14 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:51:50 [info] 8120#6340: *14 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:51:50 [info] 8120#6340: *14 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:52:04 [info] 8120#6340: *15 client connected '192.168.1.128'
+2024/07/01 16:52:04 [info] 8120#6340: *15 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:52:04 [info] 8120#6340: *15 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:52:04 [info] 8120#6340: *15 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:52:52 [info] 8120#6340: *15 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:52:52 [info] 8120#6340: *15 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:52:52 [info] 8120#6340: *15 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:52:57 [info] 8120#6340: *13 deleteStream, client: 192.168.1.143, server: 0.0.0.0:1935
+2024/07/01 16:52:57 [info] 8120#6340: *13 disconnect, client: 192.168.1.143, server: 0.0.0.0:1935
+2024/07/01 16:52:57 [info] 8120#6340: *13 deleteStream, client: 192.168.1.143, server: 0.0.0.0:1935
+2024/07/01 16:53:05 [info] 8120#6340: *16 client connected '192.168.1.143'
+2024/07/01 16:53:05 [info] 8120#6340: *16 connect: app='live' args='' flashver='FMLE/3.0 (compatible; vMix/26.0' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.143, server: 0.0.0.0:1935
+2024/07/01 16:53:06 [info] 8120#6340: *16 createStream, client: 192.168.1.143, server: 0.0.0.0:1935
+2024/07/01 16:53:06 [info] 8120#6340: *16 publish: name='stream' args='' type=live silent=0, client: 192.168.1.143, server: 0.0.0.0:1935
+2024/07/01 16:53:13 [info] 8120#6340: *17 client connected '192.168.1.128'
+2024/07/01 16:53:13 [info] 8120#6340: *17 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:53:13 [info] 8120#6340: *17 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:53:13 [info] 8120#6340: *17 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:53:50 [info] 8120#6340: *16 deleteStream, client: 192.168.1.143, server: 0.0.0.0:1935
+2024/07/01 16:53:50 [info] 8120#6340: *16 disconnect, client: 192.168.1.143, server: 0.0.0.0:1935
+2024/07/01 16:53:50 [info] 8120#6340: *16 deleteStream, client: 192.168.1.143, server: 0.0.0.0:1935
+2024/07/01 16:53:54 [info] 8120#6340: *17 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:53:54 [info] 8120#6340: *17 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:53:54 [info] 8120#6340: *17 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:54:29 [info] 8120#6340: *18 client connected '192.168.1.128'
+2024/07/01 16:54:29 [info] 8120#6340: *18 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://192.168.1.128:1935/live' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:54:29 [info] 8120#6340: *18 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:54:29 [info] 8120#6340: *18 publish: name='test' args='' type=live silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:54:43 [info] 8120#6340: *18 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:54:43 [info] 8120#6340: *18 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:54:43 [info] 8120#6340: *18 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:54:43 [info] 8120#6340: *18 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:54:51 [info] 8120#6340: *19 client connected '192.168.1.128'
+2024/07/01 16:54:51 [info] 8120#6340: *19 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://192.168.1.128:1935/live' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:54:51 [info] 8120#6340: *19 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:54:51 [info] 8120#6340: *19 publish: name='test' args='' type=live silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:55:12 [info] 8120#6340: *20 client connected '192.168.1.128'
+2024/07/01 16:55:12 [info] 8120#6340: *20 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:55:12 [info] 8120#6340: *20 createStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:55:12 [info] 8120#6340: *20 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 16:56:05 [info] 8120#6340: *8 disconnect, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:56:05 [info] 8120#6340: *8 deleteStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:56:05 [info] 8120#6340: *21 client connected '192.168.1.130'
+2024/07/01 16:56:05 [info] 8120#6340: *21 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:56:05 [info] 8120#6340: *21 createStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:56:05 [info] 8120#6340: *21 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:56:09 [info] 8120#6340: *21 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:56:09 [info] 8120#6340: *21 disconnect, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:56:09 [info] 8120#6340: *21 deleteStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:58:37 [info] 8120#6340: *22 client connected '192.168.1.130'
+2024/07/01 16:58:37 [info] 8120#6340: *22 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:58:37 [info] 8120#6340: *22 createStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 16:58:37 [info] 8120#6340: *22 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:00:47 [info] 8120#6340: *22 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:00:47 [info] 8120#6340: *22 disconnect, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:00:47 [info] 8120#6340: *22 deleteStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:00:47 [info] 8120#6340: *23 client connected '192.168.1.130'
+2024/07/01 17:00:47 [info] 8120#6340: *23 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:00:47 [info] 8120#6340: *23 createStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:00:47 [info] 8120#6340: *23 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:00:53 [info] 8120#6340: *20 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 17:00:53 [info] 8120#6340: *20 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 17:00:53 [info] 8120#6340: *20 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 17:00:58 [info] 8120#6340: *23 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:00:58 [info] 8120#6340: *23 disconnect, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:00:58 [info] 8120#6340: *23 deleteStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:01:05 [info] 8120#6340: *24 client connected '192.168.1.130'
+2024/07/01 17:01:05 [info] 8120#6340: *24 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:01:05 [info] 8120#6340: *24 createStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:01:05 [info] 8120#6340: *24 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:03:14 [info] 8120#6340: *24 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:03:14 [info] 8120#6340: *24 disconnect, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:03:14 [info] 8120#6340: *24 deleteStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:10:06 [info] 8120#6340: *25 client connected '192.168.1.130'
+2024/07/01 17:10:06 [info] 8120#6340: *25 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:10:06 [info] 8120#6340: *25 createStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:10:06 [info] 8120#6340: *25 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:10:18 [info] 8120#6340: *25 disconnect, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:10:18 [info] 8120#6340: *25 deleteStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:10:18 [info] 8120#6340: *26 client connected '192.168.1.130'
+2024/07/01 17:10:18 [info] 8120#6340: *26 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:10:18 [info] 8120#6340: *26 createStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:10:18 [info] 8120#6340: *26 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:10:20 [info] 8120#6340: *26 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:10:20 [info] 8120#6340: *26 disconnect, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:10:20 [info] 8120#6340: *26 deleteStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:10:20 [info] 8120#6340: *27 client connected '192.168.1.130'
+2024/07/01 17:10:20 [info] 8120#6340: *27 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:10:20 [info] 8120#6340: *27 createStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:10:20 [info] 8120#6340: *27 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:10:28 [info] 8120#6340: *27 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:10:28 [info] 8120#6340: *27 disconnect, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:10:28 [info] 8120#6340: *27 deleteStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:10:29 [info] 8120#6340: *28 client connected '192.168.1.130'
+2024/07/01 17:10:29 [info] 8120#6340: *28 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.128:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:10:29 [info] 8120#6340: *28 createStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:10:29 [info] 8120#6340: *28 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:17:06 [info] 8120#6340: *19 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 17:17:06 [info] 8120#6340: *19 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 17:17:06 [info] 8120#6340: *19 disconnect, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 17:17:06 [info] 8120#6340: *19 deleteStream, client: 192.168.1.128, server: 0.0.0.0:1935
+2024/07/01 17:17:07 [info] 8120#6340: *28 disconnect, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 17:17:07 [info] 8120#6340: *28 deleteStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2024/07/01 19:50:13 [notice] 6348#15728: using the "select" event method
+2024/07/01 19:50:13 [notice] 6348#15728: nginx/1.14.1
+2024/07/01 19:50:13 [info] 6348#15728: OS: 260200 build:9200, "", suite:300, type:1
+2024/07/01 19:50:13 [notice] 6348#15728: start worker processes
+2024/07/01 19:50:13 [notice] 6348#15728: start worker process 3752
+2024/07/01 19:50:13 [notice] 3752#1184: nginx/1.14.1
+2024/07/01 19:50:13 [info] 3752#1184: OS: 260200 build:9200, "", suite:300, type:1
+2024/07/01 19:50:13 [notice] 3752#1184: create thread 4176
+2024/07/01 19:50:13 [notice] 3752#1184: create thread 2660
+2024/07/01 19:50:13 [notice] 3752#1184: create thread 4544
+2024/07/01 19:57:39 [info] 3752#4176: *1 client connected '192.168.1.249'
+2024/07/01 19:57:39 [info] 3752#4176: *1 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://192.168.1.249:1935/live' tc_url='rtmp://192.168.1.249:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.249, server: 0.0.0.0:1935
+2024/07/01 19:57:39 [info] 3752#4176: *1 createStream, client: 192.168.1.249, server: 0.0.0.0:1935
+2024/07/01 19:57:39 [info] 3752#4176: *1 publish: name='test' args='' type=live silent=0, client: 192.168.1.249, server: 0.0.0.0:1935
+2024/07/01 20:01:14 [info] 3752#4176: *2 client connected '192.168.1.2'
+2024/07/01 20:01:14 [info] 3752#4176: *2 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.249:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.2, server: 0.0.0.0:1935
+2024/07/01 20:01:14 [info] 3752#4176: *2 createStream, client: 192.168.1.2, server: 0.0.0.0:1935
+2024/07/01 20:01:14 [info] 3752#4176: *2 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.2, server: 0.0.0.0:1935
+2024/07/01 20:45:09 [info] 3752#4176: *2 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.2, server: 0.0.0.0:1935
+2024/07/01 20:45:09 [info] 3752#4176: *2 disconnect, client: 192.168.1.2, server: 0.0.0.0:1935
+2024/07/01 20:45:09 [info] 3752#4176: *2 deleteStream, client: 192.168.1.2, server: 0.0.0.0:1935
+2024/07/01 20:49:16 [info] 3752#4176: *1 deleteStream, client: 192.168.1.249, server: 0.0.0.0:1935
+2024/07/01 20:49:16 [info] 3752#4176: *1 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 192.168.1.249, server: 0.0.0.0:1935
+2024/07/01 20:49:16 [info] 3752#4176: *1 disconnect, client: 192.168.1.249, server: 0.0.0.0:1935
+2024/07/01 20:49:16 [info] 3752#4176: *1 deleteStream, client: 192.168.1.249, server: 0.0.0.0:1935
+2024/07/05 01:44:10 [notice] 18168#18172: using the "select" event method
+2024/07/05 01:44:10 [notice] 18168#18172: nginx/1.14.1
+2024/07/05 01:44:10 [info] 18168#18172: OS: 260200 build:9200, "", suite:300, type:1
+2024/07/05 01:44:10 [notice] 18168#18172: start worker processes
+2024/07/05 01:44:10 [notice] 18168#18172: start worker process 18188
+2024/07/05 01:44:10 [notice] 18188#18192: nginx/1.14.1
+2024/07/05 01:44:10 [info] 18188#18192: OS: 260200 build:9200, "", suite:300, type:1
+2024/07/05 01:44:10 [notice] 18188#18192: create thread 18268
+2024/07/05 01:44:10 [notice] 18188#18192: create thread 18272
+2024/07/05 01:44:10 [notice] 18188#18192: create thread 18276
+2024/07/05 01:45:32 [info] 18188#18268: *1 client connected '192.168.1.28'
+2024/07/05 01:45:32 [info] 18188#18268: *1 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.28:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 01:45:32 [info] 18188#18268: *1 createStream, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 01:45:32 [info] 18188#18268: *1 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 01:45:43 [info] 18188#18268: *2 client connected '192.168.1.28'
+2024/07/05 01:45:43 [info] 18188#18268: *2 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://192.168.1.28:1935/live' tc_url='rtmp://192.168.1.28:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 01:45:43 [info] 18188#18268: *2 createStream, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 01:45:43 [info] 18188#18268: *2 publish: name='test' args='' type=live silent=0, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 01:46:52 [info] 18188#18268: *3 client connected '192.168.1.22'
+2024/07/05 01:46:52 [info] 18188#18268: *3 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.28:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.22, server: 0.0.0.0:1935
+2024/07/05 01:46:52 [info] 18188#18268: *3 createStream, client: 192.168.1.22, server: 0.0.0.0:1935
+2024/07/05 01:46:52 [info] 18188#18268: *3 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.22, server: 0.0.0.0:1935
+2024/07/05 01:47:43 [info] 18188#18268: *3 disconnect, client: 192.168.1.22, server: 0.0.0.0:1935
+2024/07/05 01:47:43 [info] 18188#18268: *3 deleteStream, client: 192.168.1.22, server: 0.0.0.0:1935
+2024/07/05 01:47:47 [info] 18188#18268: *4 client connected '192.168.1.22'
+2024/07/05 01:47:47 [info] 18188#18268: *4 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.28:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.22, server: 0.0.0.0:1935
+2024/07/05 01:47:48 [info] 18188#18268: *4 createStream, client: 192.168.1.22, server: 0.0.0.0:1935
+2024/07/05 01:47:48 [info] 18188#18268: *4 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.22, server: 0.0.0.0:1935
+2024/07/05 01:48:47 [info] 18188#18268: *4 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.22, server: 0.0.0.0:1935
+2024/07/05 01:48:47 [info] 18188#18268: *4 disconnect, client: 192.168.1.22, server: 0.0.0.0:1935
+2024/07/05 01:48:47 [info] 18188#18268: *4 deleteStream, client: 192.168.1.22, server: 0.0.0.0:1935
+2024/07/05 01:50:51 [info] 18188#18268: *5 client connected '192.168.1.26'
+2024/07/05 01:50:52 [info] 18188#18268: *5 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.28:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 01:50:52 [info] 18188#18268: *5 createStream, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 01:50:52 [info] 18188#18268: *5 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 01:51:17 [info] 18188#18268: *5 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 01:51:17 [info] 18188#18268: *5 disconnect, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 01:51:17 [info] 18188#18268: *5 deleteStream, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 01:51:18 [info] 18188#18268: *6 client connected '192.168.1.26'
+2024/07/05 01:51:18 [info] 18188#18268: *6 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.28:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 01:51:18 [info] 18188#18268: *6 createStream, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 01:51:18 [info] 18188#18268: *6 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 01:51:19 [info] 18188#18268: *7 client connected '192.168.1.26'
+2024/07/05 01:51:19 [info] 18188#18268: *7 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.28:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 01:51:19 [info] 18188#18268: *7 createStream, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 01:51:20 [info] 18188#18268: *7 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 01:51:35 [info] 18188#18268: *7 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 01:51:35 [info] 18188#18268: *7 disconnect, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 01:51:35 [info] 18188#18268: *7 deleteStream, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 01:51:35 [info] 18188#18268: *6 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 01:51:35 [info] 18188#18268: *6 disconnect, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 01:51:35 [info] 18188#18268: *6 deleteStream, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 01:53:48 [info] 18188#18268: *1 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 01:53:48 [info] 18188#18268: *1 disconnect, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 01:53:48 [info] 18188#18268: *1 deleteStream, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 01:53:51 [info] 18188#18268: *2 deleteStream, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 01:53:51 [info] 18188#18268: *2 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 01:53:51 [info] 18188#18268: *2 disconnect, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 01:53:51 [info] 18188#18268: *2 deleteStream, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 01:54:03 [info] 18188#18268: *8 client connected '192.168.1.26'
+2024/07/05 01:54:03 [info] 18188#18268: *8 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Larix/1.5' swf_url='' tc_url='rtmp://192.168.1.28:1935/live' page_url='' acodecs=1028 vcodecs=128 object_encoding=0, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 01:54:03 [info] 18188#18268: *8 createStream, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 01:54:04 [info] 18188#18268: *8 publish: name='stream' args='' type=live silent=0, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 01:54:20 [info] 18188#18268: *9 client connected '192.168.1.28'
+2024/07/05 01:54:20 [info] 18188#18268: *9 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.28:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 01:54:20 [info] 18188#18268: *9 createStream, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 01:54:20 [info] 18188#18268: *9 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 01:54:28 [info] 18188#18268: *9 disconnect, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 01:54:28 [info] 18188#18268: *9 deleteStream, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 01:54:28 [info] 18188#18268: *10 client connected '192.168.1.28'
+2024/07/05 01:54:28 [info] 18188#18268: *10 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.28:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 01:54:28 [info] 18188#18268: *10 createStream, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 01:54:28 [info] 18188#18268: *10 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 01:54:48 [info] 18188#18268: *8 disconnect, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 01:54:48 [info] 18188#18268: *8 deleteStream, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 01:56:45 [info] 18188#18268: *11 client connected '192.168.1.3'
+2024/07/05 01:56:45 [info] 18188#18268: *11 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Larix/1.5' swf_url='' tc_url='rtmp://192.168.1.28:1935/live' page_url='' acodecs=1028 vcodecs=128 object_encoding=0, client: 192.168.1.3, server: 0.0.0.0:1935
+2024/07/05 01:56:46 [info] 18188#18268: *11 createStream, client: 192.168.1.3, server: 0.0.0.0:1935
+2024/07/05 01:56:46 [info] 18188#18268: *11 publish: name='stream' args='' type=live silent=0, client: 192.168.1.3, server: 0.0.0.0:1935
+2024/07/05 01:56:57 [info] 18188#18268: *10 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 01:56:57 [info] 18188#18268: *10 disconnect, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 01:56:57 [info] 18188#18268: *10 deleteStream, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 01:56:57 [info] 18188#18268: *12 client connected '192.168.1.28'
+2024/07/05 01:56:57 [info] 18188#18268: *12 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.28:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 01:56:57 [info] 18188#18268: *12 createStream, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 01:56:57 [info] 18188#18268: *12 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 01:57:44 [info] 18188#18268: *13 client connected '192.168.1.22'
+2024/07/05 01:57:44 [info] 18188#18268: *13 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.28:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.22, server: 0.0.0.0:1935
+2024/07/05 01:57:44 [info] 18188#18268: *13 createStream, client: 192.168.1.22, server: 0.0.0.0:1935
+2024/07/05 01:57:44 [info] 18188#18268: *13 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.22, server: 0.0.0.0:1935
+2024/07/05 01:58:17 [info] 18188#18268: *11 disconnect, client: 192.168.1.3, server: 0.0.0.0:1935
+2024/07/05 01:58:17 [info] 18188#18268: *11 deleteStream, client: 192.168.1.3, server: 0.0.0.0:1935
+2024/07/05 01:58:26 [info] 18188#18268: *13 disconnect, client: 192.168.1.22, server: 0.0.0.0:1935
+2024/07/05 01:58:26 [info] 18188#18268: *13 deleteStream, client: 192.168.1.22, server: 0.0.0.0:1935
+2024/07/05 01:58:39 [info] 18188#18268: *12 disconnect, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 01:58:39 [info] 18188#18268: *12 deleteStream, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 02:04:40 [info] 18188#18268: *14 client connected '192.168.1.3'
+2024/07/05 02:04:40 [info] 18188#18268: *14 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Larix/1.5' swf_url='' tc_url='rtmp://192.168.1.28:1935/live' page_url='' acodecs=1028 vcodecs=128 object_encoding=0, client: 192.168.1.3, server: 0.0.0.0:1935
+2024/07/05 02:04:40 [info] 18188#18268: *14 createStream, client: 192.168.1.3, server: 0.0.0.0:1935
+2024/07/05 02:04:40 [info] 18188#18268: *14 publish: name='stream' args='' type=live silent=0, client: 192.168.1.3, server: 0.0.0.0:1935
+2024/07/05 02:04:47 [info] 18188#18268: *15 client connected '192.168.1.22'
+2024/07/05 02:04:47 [info] 18188#18268: *15 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.28:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.22, server: 0.0.0.0:1935
+2024/07/05 02:04:48 [info] 18188#18268: *15 createStream, client: 192.168.1.22, server: 0.0.0.0:1935
+2024/07/05 02:04:48 [info] 18188#18268: *15 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.22, server: 0.0.0.0:1935
+2024/07/05 02:06:59 [info] 18188#18268: *14 disconnect, client: 192.168.1.3, server: 0.0.0.0:1935
+2024/07/05 02:06:59 [info] 18188#18268: *14 deleteStream, client: 192.168.1.3, server: 0.0.0.0:1935
+2024/07/05 02:07:04 [info] 18188#18268: *15 disconnect, client: 192.168.1.22, server: 0.0.0.0:1935
+2024/07/05 02:07:04 [info] 18188#18268: *15 deleteStream, client: 192.168.1.22, server: 0.0.0.0:1935
+2024/07/05 02:08:11 [info] 18188#18268: *16 client connected '192.168.1.26'
+2024/07/05 02:08:11 [info] 18188#18268: *16 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Larix/1.5' swf_url='' tc_url='rtmp://192.168.1.28:1935/live' page_url='' acodecs=1028 vcodecs=128 object_encoding=0, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:08:11 [info] 18188#18268: *16 createStream, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:08:11 [info] 18188#18268: *16 publish: name='stream' args='' type=live silent=0, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:08:26 [info] 18188#18268: *16 disconnect, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:08:26 [info] 18188#18268: *16 deleteStream, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:25:09 [notice] 15796#15804: using the "select" event method
+2024/07/05 02:25:09 [notice] 15796#15804: nginx/1.14.1
+2024/07/05 02:25:09 [info] 15796#15804: OS: 260200 build:9200, "", suite:300, type:1
+2024/07/05 02:25:09 [notice] 15796#15804: start worker processes
+2024/07/05 02:25:09 [notice] 15796#15804: start worker process 15392
+2024/07/05 02:25:09 [notice] 15392#15412: nginx/1.14.1
+2024/07/05 02:25:09 [info] 15392#15412: OS: 260200 build:9200, "", suite:300, type:1
+2024/07/05 02:25:09 [notice] 15392#15412: create thread 1928
+2024/07/05 02:25:09 [notice] 15392#15412: create thread 1916
+2024/07/05 02:25:09 [notice] 15392#15412: create thread 1980
+2024/07/05 02:25:56 [info] 15392#1928: *1 client connected '192.168.1.3'
+2024/07/05 02:25:56 [info] 15392#1928: *1 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Larix/1.5' swf_url='' tc_url='rtmp://192.168.1.28:1935/live' page_url='' acodecs=1028 vcodecs=128 object_encoding=0, client: 192.168.1.3, server: 0.0.0.0:1935
+2024/07/05 02:25:56 [info] 15392#1928: *1 createStream, client: 192.168.1.3, server: 0.0.0.0:1935
+2024/07/05 02:25:56 [info] 15392#1928: *1 publish: name='stream' args='' type=live silent=0, client: 192.168.1.3, server: 0.0.0.0:1935
+2024/07/05 02:26:11 [info] 15392#1928: *2 client connected '192.168.1.26'
+2024/07/05 02:26:11 [info] 15392#1928: *2 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.28:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:26:11 [info] 15392#1928: *2 createStream, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:26:11 [info] 15392#1928: *2 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:26:44 [info] 15392#1928: *3 client connected '192.168.1.28'
+2024/07/05 02:26:44 [info] 15392#1928: *3 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.28:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 02:26:44 [info] 15392#1928: *3 createStream, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 02:26:44 [info] 15392#1928: *3 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 02:27:17 [info] 15392#1928: *1 disconnect, client: 192.168.1.3, server: 0.0.0.0:1935
+2024/07/05 02:27:17 [info] 15392#1928: *1 deleteStream, client: 192.168.1.3, server: 0.0.0.0:1935
+2024/07/05 02:27:22 [info] 15392#1928: *4 client connected '192.168.1.26'
+2024/07/05 02:27:22 [info] 15392#1928: *4 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.28:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:27:22 [info] 15392#1928: *4 createStream, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:27:22 [info] 15392#1928: *4 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:27:23 [info] 15392#1928: *2 disconnect, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:27:23 [info] 15392#1928: *2 deleteStream, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:27:23 [info] 15392#1928: *4 disconnect, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:27:23 [info] 15392#1928: *4 deleteStream, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:27:27 [info] 15392#1928: *3 disconnect, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 02:27:27 [info] 15392#1928: *3 deleteStream, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 02:40:55 [notice] 2556#7896: signal process started
+2024/07/05 02:40:55 [notice] 15796#15804: exiting
+2024/07/05 02:40:55 [notice] 15392#15412: gracefully shutting down
+2024/07/05 02:40:55 [notice] 15392#1916: exiting
+2024/07/05 02:40:56 [notice] 15392#1928: exiting
+2024/07/05 02:40:56 [notice] 15392#15412: exit
+2024/07/05 02:40:56 [notice] 15796#15804: worker process 15392 exited with code 0
+2024/07/05 02:40:56 [notice] 15796#15804: exit
+2024/07/05 02:47:38 [notice] 13736#2264: using the "select" event method
+2024/07/05 02:47:38 [notice] 13736#2264: nginx/1.14.1
+2024/07/05 02:47:38 [info] 13736#2264: OS: 260200 build:9200, "", suite:300, type:1
+2024/07/05 02:47:38 [notice] 13736#2264: start worker processes
+2024/07/05 02:47:38 [notice] 13736#2264: start worker process 14028
+2024/07/05 02:47:38 [notice] 14028#12224: nginx/1.14.1
+2024/07/05 02:47:38 [info] 14028#12224: OS: 260200 build:9200, "", suite:300, type:1
+2024/07/05 02:47:38 [notice] 14028#12224: create thread 4340
+2024/07/05 02:47:38 [notice] 14028#12224: create thread 10944
+2024/07/05 02:47:38 [notice] 14028#12224: create thread 13152
+2024/07/05 02:47:41 [info] 14028#4340: *1 client connected '192.168.1.26'
+2024/07/05 02:47:42 [info] 14028#4340: *1 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Larix/1.5' swf_url='' tc_url='rtmp://192.168.1.28:1935/live' page_url='' acodecs=1028 vcodecs=128 object_encoding=0, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:47:42 [info] 14028#4340: *1 createStream, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:47:42 [info] 14028#4340: *1 publish: name='stream' args='' type=live silent=0, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:47:57 [info] 14028#4340: *2 client connected '192.168.1.28'
+2024/07/05 02:47:57 [info] 14028#4340: *2 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.28:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 02:47:57 [info] 14028#4340: *2 createStream, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 02:47:57 [info] 14028#4340: *2 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 02:48:34 [info] 14028#4340: *1 disconnect, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:48:34 [info] 14028#4340: *1 deleteStream, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:48:38 [info] 14028#4340: *3 client connected '192.168.1.26'
+2024/07/05 02:48:39 [info] 14028#4340: *3 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Larix/1.5' swf_url='' tc_url='rtmp://192.168.1.28:1935/live' page_url='' acodecs=1028 vcodecs=128 object_encoding=0, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:48:39 [info] 14028#4340: *3 createStream, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:48:39 [info] 14028#4340: *3 publish: name='stream' args='' type=live silent=0, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:48:41 [info] 14028#4340: *3 disconnect, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:48:41 [info] 14028#4340: *3 deleteStream, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:48:42 [info] 14028#4340: *4 client connected '192.168.1.26'
+2024/07/05 02:48:42 [info] 14028#4340: *4 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Larix/1.5' swf_url='' tc_url='rtmp://192.168.1.28:1935/live' page_url='' acodecs=1028 vcodecs=128 object_encoding=0, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:48:42 [info] 14028#4340: *4 createStream, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:48:42 [info] 14028#4340: *4 publish: name='stream' args='' type=live silent=0, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:48:50 [info] 14028#4340: *4 disconnect, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:48:50 [info] 14028#4340: *4 deleteStream, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:48:54 [info] 14028#4340: *2 disconnect, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 02:48:54 [info] 14028#4340: *2 deleteStream, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 02:50:50 [info] 14028#4340: *5 client connected '192.168.1.26'
+2024/07/05 02:50:50 [info] 14028#4340: *5 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Larix/1.5' swf_url='' tc_url='rtmp://192.168.1.28:1935/live' page_url='' acodecs=1028 vcodecs=128 object_encoding=0, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:50:50 [info] 14028#4340: *5 createStream, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:50:50 [info] 14028#4340: *5 publish: name='stream' args='' type=live silent=0, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:51:02 [info] 14028#4340: *6 client connected '192.168.1.28'
+2024/07/05 02:51:02 [info] 14028#4340: *6 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.1.28:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 02:51:02 [info] 14028#4340: *6 createStream, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 02:51:02 [info] 14028#4340: *6 play: name='stream' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 02:52:06 [info] 14028#4340: *5 disconnect, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:52:06 [info] 14028#4340: *5 deleteStream, client: 192.168.1.26, server: 0.0.0.0:1935
+2024/07/05 02:52:28 [info] 14028#4340: *6 disconnect, client: 192.168.1.28, server: 0.0.0.0:1935
+2024/07/05 02:52:28 [info] 14028#4340: *6 deleteStream, client: 192.168.1.28, server: 0.0.0.0:1935
